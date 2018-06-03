@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto');
+
+body {
+    margin: 0;
+    height: 100%;
+    background: #FFFFFF;
+    font-family: "PT Serif", "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+header {
+    height: 950px;
+    padding: 30px;
+    background: url("blog_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #888888;
+    background-blend-mode: multiply;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.blog-title {
+    color: white;
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
+}
+
+.blog-category {
+    margin-top: 150px;
+    color: white;
+}
+
+.category-name {
+    font-size: 1.8em;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+.category-style {
+    width: 300px;
+}
+
+.article-title {
+      font-size: 7em;
+      font-family: "PT Serif", serif;
+}
+
+.article-subtitle {
+      font-size: 2em;
+      font-family: "Roboto", sans-serif;
+      color: orange;
+}
+
+#view-article-btn {
+    border: 1px solid white;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    background: transparent;
+    padding: 20px 30px;
+    vertical-align: middle;
+    margin-top: 100px;
+    text-decoration: none;
+    touch-action: manipulation;
+    display : inline-block;
+    white-space: nowrap;
+    border-radius: 6px;
+}
+
+article {
+    font-family: "PT Serif", serif;
+}
+
+h2 {
+    display: block;
+    margin-bottom: 10px;
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+}
+
+article > h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+article > p {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+
+footer {
+    height: 100px;
+    background-color: #333333;
+    margin-top: 50px;
+    color: white;
+}
+
+.footer-text {
+    font-size: 1em;
+    line-height: 100px;
+    margin-bottom: 0px !important;
+}
+
+.footer-layer {
+    padding: 30px 0px;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 7em;
+    font-family: "PT Serif", sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+p {
+    margin: 0 0 10px;
+    display: block;
+}
+
+
+body {
+	background-image:url(block.jpg);
+	margin: 0;
+	height: 100%;
+	background-color: #0E5571;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: #FFFFFF;
+}
+.col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    height: 0;
+    box-sizing: content-box;
+}
+div, section {
+    display: block;
+}
+
+#profile {
+    margin: 0;
+    padding: 0;
+    background-color: #0E5571;
+}
+
+.profile_pic {
+    background: url();
+    background-size: contain;
+    background-color: #AAAAAA;
+    background-blend-mode: multiply;
+    position: relative;
+    bottom: 0px;
+}
+
+.profile_pic_wrapper {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 20px 20px 0px;
+}
+
+.profile_pic_name {
+    font-size: 2.4em;
+    margin-right: 0px;
+}
+
+.profile_pic_desc {
+    font-size: 1.5em;
+    float: right;
+}
+
+.profile_detail_wrapper {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.profile_detail_wrapper > .profile_detail_icon > img {
+  width: 35px;
+  height: 35px;
+  float: left;
+  filter: invert(100%);
+}
+
+.profile_detail_desc {
+  color: white;
+  font-size: 1.2em;
+}
+
+a, a:hover, a:focus {
+  	text-decoration: none;
+	color: white !important; 
+}
+
+#info {
+  margin: 0;
+  padding: 0;
+  background-color: #DDDDDD;
+}
+
+.info_wrapper {
+  margin: 50px !important;
+  padding: 15px 15px 25px 15px !important;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.info_title > img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.info_title_icon {
+  vertical-align: middle;
+}
+
+.info_title_text {
+  vertical-align: middle;
+  line-height: 80px;
+  font-size: 2em;
+}
+
+.info_detail_wrapper {
+  margin-left: 100px;
+}
+
+.info_desc_title {
+  font-size: 1.5em;
+}
+
+.info_desc_date {
+  font-size: 1.1em;
+  color: #0E5571;
+}
+
+.interest_pic {
+  width: 80px;
+  height: 80px;
+}
+
+img + img {
+  margin-left: 35px;
+}
