@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1489990336 source:c:\users\moon\desktop\dalpha\divisor\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

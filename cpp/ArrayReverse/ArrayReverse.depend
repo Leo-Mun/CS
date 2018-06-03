@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1484219484 source:c:\users\moon\desktop\dalpha\arrayreverse\main.c
+	<stdio.h>
+	<stdlib.h>
+

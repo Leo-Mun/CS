@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1494160113 source:c:\users\moon\desktop\dalpha\국가표준 도서번호\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+	<cstdlib>
+

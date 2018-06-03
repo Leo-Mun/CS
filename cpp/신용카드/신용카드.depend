@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1494397961 source:c:\users\moon\desktop\dalpha\신용카드\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

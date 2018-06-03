@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490761419 source:c:\users\moon\desktop\dalpha\직선의그래프출력\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

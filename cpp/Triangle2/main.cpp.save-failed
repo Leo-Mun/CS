@@ -1,0 +1,61 @@
+#include <iostream>
+#include <fstream>
+#include <cmath>
+#include <algorithm>
+
+using namespace std;
+
+double getDistance(int ax, int ay, int bx, int by);
+
+int main()
+{
+    fstream inFile;
+    inFile.open("input.txt");
+
+    int testCase;
+    inFile >> testCase;
+
+    for (int i = 0; i < testCase; i++)
+    {
+        int ax, ay, bx, by, cx, cy;
+        double AB, BC, CA;
+        inFile >> ax >> ay >> bx >> by >> cx >> cy;
+
+        AB = getDistance(ax, ay, bx, by);
+        BC = getDistance(bx, by, cx, cy);
+        CA = getDistance(cx, cy, ax, ay);
+
+        double sides[3] = {AB, BC, CA};
+        sort(sides, sides + 3);
+
+        if (sides[2] < sides[0] + sides[1])
+        {
+            if (pow(sides[2], 2) == pow(sides[0], 2) + pow(sides[1], 2))
+            {
+                cout << "1" << endl;
+            } else if (pow(sides[2], 2) > pow(sides[0], 2) + pow(sides[1], 2))
+            {
+                cout << "2" << endl;
+            } else if (pow(sides[2], 2) < pow(sides[0], 2) + pow(sides[1], 2))
+            {
+                cout << "3" << endl;
+            }
+        } else {
+            cout << "0" << endl;
+        }
+
+    }
+
+
+
+    inFile.close();
+    return 0;
+}
+
+double getDistance(int ax, int ay, int bx, int by)
+{
+    double distance;
+    distance = sqrt(pow((bx - ax), 2) + pow((by - ay), 2));
+
+    return distance;
+}

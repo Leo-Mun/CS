@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1491749016 source:c:\users\moon\desktop\dalpha\시이저암호문복호기법\main.cpp
+	<iostream>
+	<fstream>
+	<ctype.h>
+	<cstring>
+	<cmath>
+

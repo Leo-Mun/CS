@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490847605 source:c:\users\moon\desktop\dalpha\달력출력\main.cpp
+	<iostream>
+	<fstream>
+

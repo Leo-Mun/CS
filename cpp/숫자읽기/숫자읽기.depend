@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1494427687 source:c:\users\moon\desktop\dalpha\숫자읽기\main.cpp
+	<iostream>
+	<fstream>
+

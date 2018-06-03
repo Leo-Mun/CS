@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1494656689 source:c:\users\moon\desktop\dalpha\입체사목게임\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1490599937 source:c:\users\moon\desktop\dalpha\hamingnumber\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<vector>
+

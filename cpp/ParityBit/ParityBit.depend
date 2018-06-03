@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490282959 source:c:\users\moon\desktop\dalpha\paritybit\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

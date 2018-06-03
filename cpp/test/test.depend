@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1484548985 source:c:\users\moon\desktop\dalpha\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1490282505 source:c:\users\moon\desktop\dalpha\test\main.cpp
+	<iostream>
+

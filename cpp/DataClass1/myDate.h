@@ -1,0 +1,6 @@
+#ifndef MYDATE_H_INCLUDED
+#define MYDATE_H_INCLUDED
+
+
+
+#endif // MYDATE_H_INCLUDED

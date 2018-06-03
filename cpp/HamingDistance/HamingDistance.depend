@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1493880329 source:c:\users\moon\desktop\dalpha\hamingdistance\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

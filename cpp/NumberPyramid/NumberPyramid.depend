@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489563620 source:c:\users\moon\desktop\dalpha\numberpyramid\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491199331 source:c:\users\moon\desktop\dalpha\matrixadd\main.cpp
+	<iostream>
+	<fstream>
+

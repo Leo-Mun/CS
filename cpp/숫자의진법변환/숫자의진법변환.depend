@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1492001968 source:c:\users\moon\desktop\dalpha\숫자의진법변환\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	<cstring>
+	<sstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490078814 source:c:\users\moon\desktop\dalpha\getaspect\main.cpp
+	<iostream>
+	<fstream>
+

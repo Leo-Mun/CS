@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489562159 source:c:\users\moon\desktop\dalpha\timecomputing\main.cpp
+	<iostream>
+	<fstream>
+

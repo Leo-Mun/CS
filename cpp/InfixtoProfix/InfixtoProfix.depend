@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1491297085 source:c:\users\moon\desktop\dalpha\infixtoprofix\main.cpp
+	"infixADT.cpp"
+	"infix.h"
+
+1491296991 c:\users\moon\desktop\dalpha\infixtoprofix\infixadt.cpp
+	"infix.h"
+
+1491296748 c:\users\moon\desktop\dalpha\infixtoprofix\infix.h
+	<iostream>
+	"infix.h"
+	"infixADT"
+	<cstdio>
+	<cstring>
+
+1491279967 c:\users\moon\desktop\dalpha\infixtoprofix\infixadt
+

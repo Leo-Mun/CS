@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1495701809 source:c:\users\moon\desktop\dalpha\dataclass2\main.cpp
+	<iostream>
+	<fstream>
+

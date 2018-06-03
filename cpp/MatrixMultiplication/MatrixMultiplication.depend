@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491205935 source:c:\users\moon\desktop\dalpha\matrixmultiplication\main.cpp
+	<iostream>
+	<fstream>
+

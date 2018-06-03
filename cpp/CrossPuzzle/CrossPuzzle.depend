@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1495002020 source:c:\users\moon\desktop\dalpha\crosspuzzle\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490168023 source:c:\users\moon\desktop\dalpha\linecrosscheck\main.cpp
+	<iostream>
+	<fstream>
+

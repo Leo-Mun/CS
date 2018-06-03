@@ -1,0 +1,36 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+    fstream inFile;
+    inFile.open("input.txt");
+
+    int time;
+    inFile >> time;
+
+    for (int i = 0; i < time; i++)
+    {
+        int height;
+        inFile >> height;
+
+        for (int j = 0; j < height; j++)
+        {
+            for (int k = 0; k < j; k++)
+            {
+                cout << j << " ";
+                j += height - k;
+            }
+            cout << " ";
+
+        }
+
+
+    }
+
+    inFile.close();
+    return 0;
+
+}

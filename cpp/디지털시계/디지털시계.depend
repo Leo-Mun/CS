@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1495255785 source:c:\users\moon\desktop\dalpha\디지털시계\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1494996542 source:c:\users\moon\desktop\dalpha\문자저장\main.cpp
+	<iostream>
+	<fstream>
+
